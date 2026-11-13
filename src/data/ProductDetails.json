@@ -1,0 +1,767 @@
+[
+  {
+    "product": {
+      "id": 55,
+      "name": "Aria Runner",
+      "reviews": {
+        "rating": 4.6,
+        "reviewCount": 128
+      },
+      "description": "Leggera e reattiva pensata per correre su strada tutti i giorni",
+      "variants": [
+        {
+          "colorId": 33,
+          "colorCode": "#FFFFFF",
+          "colorName": "Bianco",
+          "price": {
+            "amount": 119.0,
+            "currency": "EUR"
+          },
+          "images": [
+            "https://www.miosito.it/images/1.jpg",
+            "https://www.miosito.it/images/2.jpg",
+            "https://www.miosito.it/images/3.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 10 },
+            { "size": 39, "stock": 25 },
+            { "size": 40, "stock": 12 },
+            { "size": 41, "stock": 0 },
+            { "size": 42, "stock": 12 },
+            { "size": 43, "stock": 2 },
+            { "size": 44, "stock": 5 },
+            { "size": 45, "stock": 0 }
+          ]
+        },
+        {
+          "colorId": 56,
+          "colorCode": "#000080",
+          "colorName": "Navy Blue",
+          "price": {
+            "amount": 119.0,
+            "currency": "EUR"
+          },
+          "images": [
+            "https://www.miosito.it/images/4.jpg",
+            "https://www.miosito.it/images/5.jpg",
+            "https://www.miosito.it/images/6.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 0 },
+            { "size": 39, "stock": 0 },
+            { "size": 40, "stock": 13 },
+            { "size": 41, "stock": 25 },
+            { "size": 42, "stock": 10 },
+            { "size": 43, "stock": 22 },
+            { "size": 44, "stock": 0 },
+            { "size": 45, "stock": 15 }
+          ]
+        },
+        {
+          "colorId": 18,
+          "colorCode": "#C2B280",
+          "colorName": "Sabbia",
+          "price": {
+            "amount": 138.0,
+            "currency": "EUR"
+          },
+          "badge": "edizione limitata",
+          "images": [
+            "https://www.miosito.it/images/7.jpg",
+            "https://www.miosito.it/images/8.jpg",
+            "https://www.miosito.it/images/9.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 0 },
+            { "size": 39, "stock": 0 },
+            { "size": 40, "stock": 15 },
+            { "size": 41, "stock": 12 },
+            { "size": 42, "stock": 10 },
+            { "size": 43, "stock": 22 },
+            { "size": 44, "stock": 5 },
+            { "size": 45, "stock": 0 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 56,
+      "name": "Aria Trail",
+      "reviews": {
+        "rating": 4.7,
+        "reviewCount": 94
+      },
+      "description": "Massima trazione e ammortizzazione per i tuoi percorsi off-road",
+      "variants": [
+        {
+          "colorId": 12,
+          "colorCode": "#2F4F4F",
+          "colorName": "Verde Bosco",
+          "price": {
+            "amount": 139.0,
+            "currency": "EUR"
+          },
+          "images": [
+            "https://www.miosito.it/images/trail_1.jpg",
+            "https://www.miosito.it/images/trail_2.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 5 },
+            { "size": 39, "stock": 10 },
+            { "size": 40, "stock": 8 },
+            { "size": 41, "stock": 14 },
+            { "size": 42, "stock": 20 },
+            { "size": 43, "stock": 6 },
+            { "size": 44, "stock": 3 },
+            { "size": 45, "stock": 0 }
+          ]
+        },
+        {
+          "colorId": 15,
+          "colorCode": "#8B0000",
+          "colorName": "Rosso Mattone",
+          "price": {
+            "amount": 139.0,
+            "currency": "EUR"
+          },
+          "images": [
+            "https://www.miosito.it/images/trail_3.jpg",
+            "https://www.miosito.it/images/trail_4.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 0 },
+            { "size": 39, "stock": 4 },
+            { "size": 40, "stock": 11 },
+            { "size": 41, "stock": 9 },
+            { "size": 42, "stock": 15 },
+            { "size": 43, "stock": 12 },
+            { "size": 44, "stock": 4 },
+            { "size": 45, "stock": 2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 57,
+      "name": "Aria Speed",
+      "reviews": {
+        "rating": 4.8,
+        "reviewCount": 210
+      },
+      "description": "Progettata per la velocità e le gare su strada",
+      "variants": [
+        {
+          "colorId": 21,
+          "colorCode": "#FF4500",
+          "colorName": "Arancio Flash",
+          "price": {
+            "amount": 159.0,
+            "currency": "EUR"
+          },
+          "badge": "novità",
+          "images": [
+            "https://www.miosito.it/images/speed_1.jpg",
+            "https://www.miosito.it/images/speed_2.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 2 },
+            { "size": 39, "stock": 8 },
+            { "size": 40, "stock": 15 },
+            { "size": 41, "stock": 20 },
+            { "size": 42, "stock": 25 },
+            { "size": 43, "stock": 10 },
+            { "size": 44, "stock": 6 },
+            { "size": 45, "stock": 1 }
+          ]
+        },
+        {
+          "colorId": 22,
+          "colorCode": "#000000",
+          "colorName": "Nero Notte",
+          "price": {
+            "amount": 159.0,
+            "currency": "EUR"
+          },
+          "images": [
+            "https://www.miosito.it/images/speed_3.jpg",
+            "https://www.miosito.it/images/speed_4.jpg"
+          ],
+          "inventory": [
+            { "size": 38, "stock": 12 },
+            { "size": 39, "stock": 15 },
+            { "size": 40, "stock": 18 },
+            { "size": 41, "stock": 30 },
+            { "size": 42, "stock": 22 },
+            { "size": 43, "stock": 14 },
+            { "size": 44, "stock": 8 },
+            { "size": 45, "stock": 4 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 58,
+      "name": "Aria Urban",
+      "reviews": {
+        "rating": 4.3,
+        "reviewCount": 65
+      },
+      "description": "Stile casual e comfort quotidiano per camminare in città",
+      "variants": [
+        {
+          "colorId": 41,
+          "colorCode": "#708090",
+          "colorName": "Grigio Ardesia",
+          "price": {
+            "amount": 99.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/urban_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 20 },
+            { "size": 39, "stock": 18 },
+            { "size": 40, "stock": 15 },
+            { "size": 41, "stock": 10 },
+            { "size": 42, "stock": 5 },
+            { "size": 43, "stock": 10 },
+            { "size": 44, "stock": 12 },
+            { "size": 45, "stock": 8 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 59,
+      "name": "Aria Pro Carbon",
+      "reviews": {
+        "rating": 4.9,
+        "reviewCount": 312
+      },
+      "description": "Scarpa da maratona con piastra in carbonio integrata",
+      "variants": [
+        {
+          "colorId": 77,
+          "colorCode": "#FFD700",
+          "colorName": "Oro Giallo",
+          "price": {
+            "amount": 220.0,
+            "currency": "EUR"
+          },
+          "badge": "top di gamma",
+          "images": ["https://www.miosito.it/images/carbon_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 0 },
+            { "size": 39, "stock": 2 },
+            { "size": 40, "stock": 5 },
+            { "size": 41, "stock": 8 },
+            { "size": 42, "stock": 12 },
+            { "size": 43, "stock": 15 },
+            { "size": 44, "stock": 4 },
+            { "size": 45, "stock": 1 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 60,
+      "name": "Aria Classic",
+      "reviews": {
+        "rating": 4.4,
+        "reviewCount": 88
+      },
+      "description": "Design rétro ispirato ai modelli storici del brand",
+      "variants": [
+        {
+          "colorId": 10,
+          "colorCode": "#F5F5DC",
+          "colorName": "Crema",
+          "price": {
+            "amount": 109.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/classic_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 10 },
+            { "size": 39, "stock": 12 },
+            { "size": 40, "stock": 8 },
+            { "size": 41, "stock": 5 },
+            { "size": 42, "stock": 0 },
+            { "size": 43, "stock": 3 },
+            { "size": 44, "stock": 6 },
+            { "size": 45, "stock": 4 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 61,
+      "name": "Aria Storm",
+      "reviews": {
+        "rating": 4.5,
+        "reviewCount": 54
+      },
+      "description": "Tomaia idrorepellente per le tue corse nelle giornate piovose",
+      "variants": [
+        {
+          "colorId": 30,
+          "colorCode": "#4682B4",
+          "colorName": "Blu Acciaio",
+          "price": {
+            "amount": 145.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/storm_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 4 },
+            { "size": 39, "stock": 6 },
+            { "size": 40, "stock": 10 },
+            { "size": 41, "stock": 12 },
+            { "size": 42, "stock": 8 },
+            { "size": 43, "stock": 5 },
+            { "size": 44, "stock": 2 },
+            { "size": 45, "stock": 0 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 62,
+      "name": "Aria Lite",
+      "reviews": {
+        "rating": 4.2,
+        "reviewCount": 73
+      },
+      "description": "Estremamente leggera per sessioni di allenamento indoor e tapis roulant",
+      "variants": [
+        {
+          "colorId": 50,
+          "colorCode": "#FF69B4",
+          "colorName": "Rosa Shocking",
+          "price": {
+            "amount": 89.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/lite_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 15 },
+            { "size": 39, "stock": 20 },
+            { "size": 40, "stock": 14 },
+            { "size": 41, "stock": 5 },
+            { "size": 42, "stock": 0 },
+            { "size": 43, "stock": 0 },
+            { "size": 44, "stock": 0 },
+            { "size": 45, "stock": 0 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 63,
+      "name": "Aria Eco",
+      "reviews": {
+        "rating": 4.6,
+        "reviewCount": 115
+      },
+      "description": "Realizzata al 65% con materiali riciclati a basso impatto ambientale",
+      "variants": [
+        {
+          "colorId": 65,
+          "colorCode": "#98FB98",
+          "colorName": "Verde Salvia",
+          "price": {
+            "amount": 125.0,
+            "currency": "EUR"
+          },
+          "badge": "ecosostenibile",
+          "images": ["https://www.miosito.it/images/eco_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 8 },
+            { "size": 39, "stock": 10 },
+            { "size": 40, "stock": 12 },
+            { "size": 41, "stock": 15 },
+            { "size": 42, "stock": 18 },
+            { "size": 43, "stock": 10 },
+            { "size": 44, "stock": 5 },
+            { "size": 45, "stock": 2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 64,
+      "name": "Aria Maximus",
+      "reviews": {
+        "rating": 4.7,
+        "reviewCount": 142
+      },
+      "description": "Massima ammortizzazione per runner su lunghe distanze",
+      "variants": [
+        {
+          "colorId": 80,
+          "colorCode": "#4B0082",
+          "colorName": "Viola Scuro",
+          "price": {
+            "amount": 149.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/maximus_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 3 },
+            { "size": 39, "stock": 5 },
+            { "size": 40, "stock": 7 },
+            { "size": 41, "stock": 9 },
+            { "size": 42, "stock": 11 },
+            { "size": 43, "stock": 13 },
+            { "size": 44, "stock": 8 },
+            { "size": 45, "stock": 4 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 65,
+      "name": "Aria Kids",
+      "reviews": {
+        "rating": 4.5,
+        "reviewCount": 30
+      },
+      "description": "Comfort e resistenza dedicati ai più piccoli",
+      "variants": [
+        {
+          "colorId": 90,
+          "colorCode": "#1E90FF",
+          "colorName": "Blu Elettrico",
+          "price": {
+            "amount": 69.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/kids_1.jpg"],
+          "inventory": [
+            { "size": 32, "stock": 10 },
+            { "size": 33, "stock": 15 },
+            { "size": 34, "stock": 12 },
+            { "size": 35, "stock": 8 },
+            { "size": 36, "stock": 5 },
+            { "size": 37, "stock": 4 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 66,
+      "name": "Aria Track Spike",
+      "reviews": {
+        "rating": 4.8,
+        "reviewCount": 42
+      },
+      "description": "Chiodate professionali per gare su pista e velocità pura",
+      "variants": [
+        {
+          "colorId": 11,
+          "colorCode": "#FF1493",
+          "colorName": "Fucsia",
+          "price": {
+            "amount": 160.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/spike_1.jpg"],
+          "inventory": [
+            { "size": 39, "stock": 2 },
+            { "size": 40, "stock": 4 },
+            { "size": 41, "stock": 6 },
+            { "size": 42, "stock": 8 },
+            { "size": 43, "stock": 5 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 67,
+      "name": "Aria Stability",
+      "reviews": {
+        "rating": 4.6,
+        "reviewCount": 98
+      },
+      "description": "Supporto antipronazione avanzato per una falcata stabile",
+      "variants": [
+        {
+          "colorId": 35,
+          "colorCode": "#556B2F",
+          "colorName": "Verde Oliva",
+          "price": {
+            "amount": 135.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/stability_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 6 },
+            { "size": 39, "stock": 8 },
+            { "size": 40, "stock": 10 },
+            { "size": 41, "stock": 12 },
+            { "size": 42, "stock": 14 },
+            { "size": 43, "stock": 16 },
+            { "size": 44, "stock": 10 },
+            { "size": 45, "stock": 5 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 68,
+      "name": "Aria Winter",
+      "reviews": {
+        "rating": 4.3,
+        "reviewCount": 45
+      },
+      "description": "Isolamento termico e suola antiscivolo per temperature rigide",
+      "variants": [
+        {
+          "colorId": 40,
+          "colorCode": "#36454F",
+          "colorName": "Antracite",
+          "price": {
+            "amount": 150.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/winter_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 2 },
+            { "size": 39, "stock": 4 },
+            { "size": 40, "stock": 6 },
+            { "size": 41, "stock": 8 },
+            { "size": 42, "stock": 10 },
+            { "size": 43, "stock": 12 },
+            { "size": 44, "stock": 6 },
+            { "size": 45, "stock": 3 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 69,
+      "name": "Aria Gym",
+      "reviews": {
+        "rating": 4.4,
+        "reviewCount": 81
+      },
+      "description": "Flessibile e stabile per crossfit e sollevamento pesi",
+      "variants": [
+        {
+          "colorId": 25,
+          "colorCode": "#808080",
+          "colorName": "Grigio",
+          "price": {
+            "amount": 95.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/gym_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 10 },
+            { "size": 39, "stock": 12 },
+            { "size": 40, "stock": 14 },
+            { "size": 41, "stock": 16 },
+            { "size": 42, "stock": 18 },
+            { "size": 43, "stock": 20 },
+            { "size": 44, "stock": 15 },
+            { "size": 45, "stock": 10 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 70,
+      "name": "Aria Hybrid",
+      "reviews": {
+        "rating": 4.5,
+        "reviewCount": 67
+      },
+      "description": "Perfetta transizione tra asfalto e sterrato leggero",
+      "variants": [
+        {
+          "colorId": 60,
+          "colorCode": "#D2B48C",
+          "colorName": "Marrone Chiaro",
+          "price": {
+            "amount": 129.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/hybrid_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 5 },
+            { "size": 39, "stock": 7 },
+            { "size": 40, "stock": 9 },
+            { "size": 41, "stock": 11 },
+            { "size": 42, "stock": 13 },
+            { "size": 43, "stock": 15 },
+            { "size": 44, "stock": 7 },
+            { "size": 45, "stock": 3 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 71,
+      "name": "Aria Ultra",
+      "reviews": {
+        "rating": 4.8,
+        "reviewCount": 180
+      },
+      "description": "Progettata per resistere agli ultra-trail più impegnativi",
+      "variants": [
+        {
+          "colorId": 85,
+          "colorCode": "#FF8C00",
+          "colorName": "Arancione Scuro",
+          "price": {
+            "amount": 165.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/ultra_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 1 },
+            { "size": 39, "stock": 3 },
+            { "size": 40, "stock": 5 },
+            { "size": 41, "stock": 7 },
+            { "size": 42, "stock": 9 },
+            { "size": 43, "stock": 11 },
+            { "size": 44, "stock": 5 },
+            { "size": 45, "stock": 2 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 72,
+      "name": "Aria Bounce",
+      "reviews": {
+        "rating": 4.3,
+        "reviewCount": 59
+      },
+      "description": "Intersuola ad alto ritorno di energia per ogni falcata",
+      "variants": [
+        {
+          "colorId": 19,
+          "colorCode": "#00FFFF",
+          "colorName": "Turchese",
+          "price": {
+            "amount": 115.0,
+            "currency": "EUR"
+          },
+          "images": ["https://www.miosito.it/images/bounce_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 8 },
+            { "size": 39, "stock": 10 },
+            { "size": 40, "stock": 12 },
+            { "size": 41, "stock": 14 },
+            { "size": 42, "stock": 16 },
+            { "size": 43, "stock": 18 },
+            { "size": 44, "stock": 9 },
+            { "size": 45, "stock": 4 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 73,
+      "name": "Aria Recovery",
+      "reviews": {
+        "rating": 4.9,
+        "reviewCount": 230
+      },
+      "description": "Massimo relax e scarico post-corsa per i tuoi piedi",
+      "variants": [
+        {
+          "colorId": 99,
+          "colorCode": "#E0E0E0",
+          "colorName": "Grigio Chiaro",
+          "price": {
+            "amount": 85.0,
+            "currency": "EUR"
+          },
+          "badge": "comfort",
+          "images": ["https://www.miosito.it/images/recovery_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 12 },
+            { "size": 39, "stock": 15 },
+            { "size": 40, "stock": 20 },
+            { "size": 41, "stock": 25 },
+            { "size": 42, "stock": 30 },
+            { "size": 43, "stock": 22 },
+            { "size": 44, "stock": 14 },
+            { "size": 45, "stock": 8 }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "product": {
+      "id": 74,
+      "name": "Aria Prime",
+      "reviews": {
+        "rating": 4.7,
+        "reviewCount": 165
+      },
+      "description": "Edizione speciale con materiali premium e finiture artigianali",
+      "variants": [
+        {
+          "colorId": 50,
+          "colorCode": "#8B4513",
+          "colorName": "Cuoio",
+          "price": {
+            "amount": 175.0,
+            "currency": "EUR"
+          },
+          "badge": "edizione limitata",
+          "images": ["https://www.miosito.it/images/prime_1.jpg"],
+          "inventory": [
+            { "size": 38, "stock": 2 },
+            { "size": 39, "stock": 3 },
+            { "size": 40, "stock": 5 },
+            { "size": 41, "stock": 6 },
+            { "size": 42, "stock": 8 },
+            { "size": 43, "stock": 10 },
+            { "size": 44, "stock": 4 },
+            { "size": 45, "stock": 1 }
+          ]
+        }
+      ]
+    }
+  }
+]

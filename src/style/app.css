@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.cardBox {
+    display: flex;
+    width: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 12px;
+    box-shadow: 0px 0px 25px 1px rgb(0, 0, 0, 0.5);
+}
+
+.reviewIcon {
+    width: 18px;
+    height: 18px;
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.cardReviewBox {
+    display: flex;
+    align-items: center;
+}
+
+.priceAmount {
+    
+}
+
+.reviewText {
+    color: grey;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+    font-size: 14px;
+}
+
+.category {
+    font-weight: 800;
+    font-size: 14px;
+    color: lightgrey
+}
