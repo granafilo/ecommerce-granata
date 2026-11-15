@@ -3,6 +3,7 @@
     "product": {
       "id": 55,
       "name": "Aria Runner",
+      "category": "Running",
       "reviews": {
         "rating": 4.6,
         "reviewCount": 128
@@ -89,6 +90,7 @@
     "product": {
       "id": 56,
       "name": "Aria Trail",
+      "category": "Trail",
       "reviews": {
         "rating": 4.7,
         "reviewCount": 94
@@ -148,6 +150,7 @@
     "product": {
       "id": 57,
       "name": "Aria Speed",
+      "category": "Running",
       "reviews": {
         "rating": 4.8,
         "reviewCount": 210
@@ -208,6 +211,7 @@
     "product": {
       "id": 58,
       "name": "Aria Urban",
+      "category": "Lifestyle",
       "reviews": {
         "rating": 4.3,
         "reviewCount": 65
@@ -241,6 +245,7 @@
     "product": {
       "id": 59,
       "name": "Aria Pro Carbon",
+      "category": "Running",
       "reviews": {
         "rating": 4.9,
         "reviewCount": 312
@@ -275,6 +280,7 @@
     "product": {
       "id": 60,
       "name": "Aria Classic",
+      "category": "Lifestyle",
       "reviews": {
         "rating": 4.4,
         "reviewCount": 88
@@ -308,6 +314,7 @@
     "product": {
       "id": 61,
       "name": "Aria Storm",
+      "category": "Running",
       "reviews": {
         "rating": 4.5,
         "reviewCount": 54
@@ -341,6 +348,7 @@
     "product": {
       "id": 62,
       "name": "Aria Lite",
+      "category": "Running",
       "reviews": {
         "rating": 4.2,
         "reviewCount": 73
@@ -374,6 +382,7 @@
     "product": {
       "id": 63,
       "name": "Aria Eco",
+      "category": "Running",
       "reviews": {
         "rating": 4.6,
         "reviewCount": 115
@@ -408,6 +417,7 @@
     "product": {
       "id": 64,
       "name": "Aria Maximus",
+      "category": "Running",
       "reviews": {
         "rating": 4.7,
         "reviewCount": 142
@@ -441,6 +451,7 @@
     "product": {
       "id": 65,
       "name": "Aria Kids",
+      "category": "Lifestyle",
       "reviews": {
         "rating": 4.5,
         "reviewCount": 30
@@ -472,6 +483,7 @@
     "product": {
       "id": 66,
       "name": "Aria Track Spike",
+      "category": "Running",
       "reviews": {
         "rating": 4.8,
         "reviewCount": 42
@@ -502,6 +514,7 @@
     "product": {
       "id": 67,
       "name": "Aria Stability",
+      "category": "Running",
       "reviews": {
         "rating": 4.6,
         "reviewCount": 98
@@ -535,6 +548,7 @@
     "product": {
       "id": 68,
       "name": "Aria Winter",
+      "category": "Running",
       "reviews": {
         "rating": 4.3,
         "reviewCount": 45
@@ -568,6 +582,7 @@
     "product": {
       "id": 69,
       "name": "Aria Gym",
+      "category": "Lifestyle",
       "reviews": {
         "rating": 4.4,
         "reviewCount": 81
@@ -601,6 +616,7 @@
     "product": {
       "id": 70,
       "name": "Aria Hybrid",
+      "category": "Trail",
       "reviews": {
         "rating": 4.5,
         "reviewCount": 67
@@ -634,6 +650,7 @@
     "product": {
       "id": 71,
       "name": "Aria Ultra",
+      "category": "Trail",
       "reviews": {
         "rating": 4.8,
         "reviewCount": 180
@@ -667,6 +684,7 @@
     "product": {
       "id": 72,
       "name": "Aria Bounce",
+      "category": "Running",
       "reviews": {
         "rating": 4.3,
         "reviewCount": 59
@@ -700,6 +718,7 @@
     "product": {
       "id": 73,
       "name": "Aria Recovery",
+      "category": "Lifestyle",
       "reviews": {
         "rating": 4.9,
         "reviewCount": 230
@@ -734,6 +753,7 @@
     "product": {
       "id": 74,
       "name": "Aria Prime",
+      "category": "Lifestyle",
       "reviews": {
         "rating": 4.7,
         "reviewCount": 165

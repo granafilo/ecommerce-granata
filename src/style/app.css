@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -5,16 +7,6 @@
 
 .cardBox.selected {
     border: var(--ink)
-}
-
-.cardBox {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    border-radius: 20px;
-    border: 1px solid rgb(128, 128, 128, 0.5);
-    box-shadow: 0px 0px 25px 1px rgb(0, 0, 0, 0.5);
-    overflow: hidden;
 }
 
 .cardContent {
@@ -29,7 +21,7 @@
 }
 
 .shoePreview {
-    width: 400px;
+    width: full;
     aspect-ratio: 3/2;
 }
 
@@ -68,7 +60,6 @@
 
 .colorInfo {
     display: flex;
-    align-items: center;
     gap: 12px;
     color: rgb(97, 97, 97); 
     font-size: 18px;
@@ -87,4 +78,11 @@
     border-color: rgb(0, 0, 0, 0.5);
     height: 22px;
     width: 22px;
+}
+
+.ProductCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
 }

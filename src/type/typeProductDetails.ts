@@ -1,7 +1,8 @@
 export type TypeProduct = {
   id: number;
   name: string;
-  review: TypeReview;
+  category: "Running" | "Trail" | "Lifestyle" | string;
+  reviews: TypeReview;
   description: string;
   variants: TypeVariant[];
 };
@@ -11,13 +12,14 @@ type TypeReview = {
   reviewCount: number;
 };
 
-type TypeVariant = {
+export type TypeVariant = {
   colorId: number;
-  colordCode: string;
+  colorCode: string;
   colorName: string;
   price: TypePrice;
   images: string[];
   inventory: TypeSizeAvailability[];
+  badge?: string;
 };
 
 type TypePrice = {
