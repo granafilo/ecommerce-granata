@@ -15,7 +15,7 @@
           "colorCode": "#FFFFFF",
           "colorName": "Bianco",
           "price": {
-            "amount": 119.0,
+            "amount": 150.0,
             "currency": "EUR"
           },
           "images": [
@@ -162,7 +162,7 @@
           "colorCode": "#FF4500",
           "colorName": "Arancio Flash",
           "price": {
-            "amount": 159.0,
+            "amount": 300.0,
             "currency": "EUR"
           },
           "badge": "novità",

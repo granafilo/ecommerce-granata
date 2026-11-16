@@ -13,16 +13,26 @@ Intl.NumberFormat('it-IT', {
   currency: 'EUR',
 });
 
+const isCheapest = (currentVariant: TypeVariant, Products: TypeProduct): boolean => {
+    let cheapest: boolean = true;
+    Products.variants.forEach((variant: TypeVariant) => {
+        if (variant.price.amount < currentVariant.price.amount) {
+            cheapest = false;
+        }
+    })
+    return cheapest;
+}
+
 const ProductCard = (ProductProps: TypeProductCardProps) => {
 
     const currentVariant: TypeVariant = ProductProps.Product.variants[0];
 
     return <>
-        <div className="flex flex-col w-full overflow-hidden border border-gray-500 rounded-[20px] shadow shadow-2">
+        <div onClick={() => console.log(`${ProductProps.Product.name}`) } className="flex flex-col w-full overflow-hidden rounded-[20px] shadow shadow-2">
             {/* immagine */}
             <div className="relative">
                 <img className="shoePreview" src={ShowPreview} alt="" />
-                {currentVariant.badge ? <div className="absolute top-[2.5%] left-[2.5%] px-2 py-1 font-semibold rounded-full bg-black text-white">{currentVariant.badge}</div> : <></>}
+                {currentVariant.badge ? <div className="absolute top-3 left-3 px-4 py-1 font-semibold rounded-full bg-black text-white">{currentVariant.badge}</div> : <></>}
             </div>
             <div className="cardContent">
                 <div>
@@ -43,7 +53,7 @@ const ProductCard = (ProductProps: TypeProductCardProps) => {
                 </div>
                 <div>
                     {/* prezzo */}
-                    <p className="priceAmount">da {euro.format(currentVariant.price.amount)} {currentVariant.price.currency}</p>
+                    <p className="priceAmount">{isCheapest(currentVariant, ProductProps.Product) && "da "} {euro.format(currentVariant.price.amount)} {currentVariant.price.currency}</p>
                 </div>
                 <div className="cardReviewBox">
                     {/* recensioni */}
