@@ -66,7 +66,7 @@
             "amount": 138.0,
             "currency": "EUR"
           },
-          "badge": "edizione limitata",
+          "badge": "edizione-limitata",
           "images": [
             "https://www.miosito.it/images/7.jpg",
             "https://www.miosito.it/images/8.jpg",
@@ -260,7 +260,7 @@
             "amount": 220.0,
             "currency": "EUR"
           },
-          "badge": "top di gamma",
+          "badge": "top",
           "images": ["https://www.miosito.it/images/carbon_1.jpg"],
           "inventory": [
             { "size": 38, "stock": 0 },
@@ -768,7 +768,7 @@
             "amount": 175.0,
             "currency": "EUR"
           },
-          "badge": "edizione limitata",
+          "badge": "edizione-limitata",
           "images": ["https://www.miosito.it/images/prime_1.jpg"],
           "inventory": [
             { "size": 38, "stock": 2 },

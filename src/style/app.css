@@ -1,11 +1,33 @@
 @import "tailwindcss";
 
+@layer components {
+    .edizione-limitata{
+        @apply bg-black text-white;
+    }
+
+    .novità {
+        @apply text-red-950 bg-gray-400
+    }
+
+    .top {
+        @apply text-orange-400 bg-black
+    }
+
+    .ecosostenibile {
+        @apply bg-green-950 text-white
+    }
+
+    .comfort {
+        @apply bg-blue-300 text-black
+    }
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
-.cardBox.selected {
+.selected {
     border: var(--ink)
 }
 

@@ -4,7 +4,8 @@ import type { TypeProduct, TypeVariant } from "../type"
 import ShowPreview from "../assets/ShoeProPic.png"
 
 type TypeProductCardProps = {
-    Product: TypeProduct
+    Product: TypeProduct,
+    index: number
 }
 
 const euro = new 
@@ -28,11 +29,11 @@ const ProductCard = (ProductProps: TypeProductCardProps) => {
     const currentVariant: TypeVariant = ProductProps.Product.variants[0];
 
     return <>
-        <div onClick={() => console.log(`${ProductProps.Product.name}`) } className="flex flex-col w-full overflow-hidden rounded-[20px] shadow shadow-2">
+        <div onClick={() => console.log(`${ProductProps.Product.name}`) } className={`flex flex-col w-full overflow-hidden rounded-[20px] shadow shadow-2 ${ProductProps.index == 1 ? "selected" : ""}`} >
             {/* immagine */}
             <div className="relative">
-                <img className="shoePreview" src={ShowPreview} alt="" />
-                {currentVariant.badge ? <div className="absolute top-3 left-3 px-4 py-1 font-semibold rounded-full bg-black text-white">{currentVariant.badge}</div> : <></>}
+                <img className="shoePreview" src={ShowPreview} alt="" />                
+                {currentVariant.badge ? <div className={`absolute top-3 left-3 px-4 py-1 font-semibold rounded-full ${currentVariant.badge}`}>{currentVariant.badge}</div> : <></>}
             </div>
             <div className="cardContent">
                 <div>
