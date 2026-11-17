@@ -1,7 +1,7 @@
 export type TypeProduct = {
   id: number;
   name: string;
-  category: "Running" | "Trail" | "Lifestyle" | string;
+  category: "Running" | "Trail" | "Lifestyle" | "Non Disponibile";
   reviews: TypeReview;
   description: string;
   variants: TypeVariant[];

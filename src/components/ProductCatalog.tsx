@@ -1,18 +1,23 @@
 import ProductCard from "./ProductCard"
-import Products from "../data/ProductDetails.json"
 import type { TypeProduct } from "../type"
 
 type ProductCatalogProps = {
-    orderBy: string
+    orderBy: string,
+    productArray: TypeProduct[]
+}
+
+const sortProducts = (Products: TypeProduct[], orderBy: string): TypeProduct[] => {
+    if (orderBy === "price") {
+        return Products.sort((a,b) => a.variants[0].price.amount - b.variants[0].price.amount)
+    } else if (orderBy === "name") {
+        return Products.sort((a,b) => a.name.localeCompare(b.name))
+    }
+    return Products
 }
 
 const ProductCatalog = (Props: ProductCatalogProps) => {
-    const productArray: TypeProduct[] = Products.map((prodotto) => prodotto.product);
-
-    console.log(Props.orderBy)
-    
     return <div className="grid grid-cols-3 gap-6 p-3">
-        {productArray.map((product: TypeProduct, index: number) => <ProductCard key={product.id} Product={product} index={index}/>)}
+        {sortProducts(Props.productArray, Props.orderBy).map((product: TypeProduct, index: number) => <ProductCard key={product.id} Product={product} index={index}/>)}
     </div>
 }
 
