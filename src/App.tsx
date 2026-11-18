@@ -1,14 +1,15 @@
 import ProductCatalog from "./components/ProductCatalog";
-import type { TypeProduct } from "./type";
+import type { TypeCategory, TypeProduct } from "./type";
 import Products from "./data/ProductDetails.json"
 import { useState } from "react";
+import HeadBar from "./components/HeadBar";
 
 const App = () => {
     const productArray: TypeProduct[] = Products.map((prodotto) => {
         return {
             id: prodotto.product.id,
             name: prodotto.product.name,
-            category: prodotto.product.category === "Running" || prodotto.product.category === "Trail" || prodotto.product.category === "Lifestyle" ? prodotto.product.category : "Non Disponibile",
+            category: prodotto.product.category as TypeCategory,
             reviews: prodotto.product.reviews,
             description: prodotto.product.description,
             variants: prodotto.product.variants
@@ -24,7 +25,8 @@ const App = () => {
     // }
     
 
-    return <>
+    return <div className="p-2">
+        <HeadBar/>
         <div className="p-3 flex w-full justify-between">
             <div className="flex justify-center items-baseline gap-3">
                 <p className="font-bold text-4xl">Sneakers</p>
@@ -40,7 +42,7 @@ const App = () => {
             </div>
         </div>
         <ProductCatalog orderBy={orderBy} productArray={productArray}/>
-    </>
+    </div>
 }
 
 export default App
